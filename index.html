@@ -7,33 +7,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Translate button -->
     <button id="translateBtn">Translate</button>
+    <!-- Container for input and output text areas -->
     <div class="container">
+      <!-- Input text area -->
       <div>
+        <!-- Source language dropdown -->
         <select id="sourceLanguage">
           <option value="en">English</option>
           <option value="or">Odia</option>
-          <option value="hi">hindi</option>
-          <option value="tel">telugu</option>
-          <option value="es">Spanish</option>
+          <option value="hi">Hindi</option>
+          <option value="tel">Telugu</option>
+          <option value="ben">Bengali</option>
         </select>
+        <!-- Input text area for user input -->
         <textarea
           id="inputText"
           placeholder="Enter text to translate"
         ></textarea>
       </div>
+      <!-- Output text area -->
       <div>
+        <!-- Target language dropdown -->
         <select id="targetLanguage">
           <option value="or">Odia</option>
           <option value="hi">hindi</option>
           <option value="tel">telugu</option>
+          <option value="ben">Bengali</option>
+          <option value="en">English</option>
           <option value="es">Spanish</option>
-          <!-- Add more language options as needed -->
         </select>
-        <textarea
-        id="outputText"
-        placeholder="Result"
-      ></textarea>
+        <!-- Output text area for translated text -->
+        <textarea id="outputText" placeholder="Result"></textarea>
       </div>
     </div>
 
