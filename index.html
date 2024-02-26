@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translation Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="translateBtn">Translate</button>
+    <div class="container">
+      <div>
+        <select id="sourceLanguage">
+          <option value="en">English</option>
+          <option value="or">Odia</option>
+          <option value="hi">hindi</option>
+          <option value="tel">telugu</option>
+          <option value="es">Spanish</option>
+        </select>
+        <textarea
+          id="inputText"
+          placeholder="Enter text to translate"
+        ></textarea>
+      </div>
+      <div>
+        <select id="targetLanguage">
+          <option value="or">Odia</option>
+          <option value="hi">hindi</option>
+          <option value="tel">telugu</option>
+          <option value="es">Spanish</option>
+          <!-- Add more language options as needed -->
+        </select>
+        <textarea
+        id="outputText"
+        placeholder="Result"
+      ></textarea>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
